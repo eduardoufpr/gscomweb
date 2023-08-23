@@ -1,0 +1,194 @@
+/*
+CSS Credit: Carlos Marcelo Pedroso
+*/
+body {
+	margin:0;
+	padding:0;
+	line-height: 1.5em;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial;
+	font-size: 12px;
+	color: #000000;
+	
+        background: url(imagens/stripe.png) repeat;
+
+}
+a:link, a:visited { color: #0066CC; text-decoration: none} 
+a:active, a:hover { color: #008800; text-decoration: underline}
+
+#container_wrapper {
+
+        background: url(imagens/stripe.png) repeat;
+}
+#container {
+	width: 1080px;
+	margin: 0px auto;
+	background: url(imagens/templatemo_content_bg.gif);
+}
+#top {
+	clear: left;
+	height: 25px;	/* 'padding-top' + 'height' must be equal to the 'background image height' */
+	padding-top: 30px;
+	padding-left: 30px;
+	background: url(imagens/templatemo_top_bg.gif) no-repeat bottom;
+        
+}
+#header {
+	clear: left;
+	height: 179px;
+	text-align: center;
+         
+	background: url(imagens/templatemo_header_bg.gif) no-repeat;
+}
+#inner_header {
+	height: 160px;
+	background: url(imagens/templatemo_header.jpg) no-repeat center center;
+}
+#left_column {
+	clear: left;
+	float: left;
+	width: 700px;
+	padding-left: 20px;
+}
+#right_column {
+	float: right;
+	width: 300px;
+	padding-right: 15px;
+}
+#footer {
+	clear: both;
+	padding-top: 18px;
+	height: 37px;
+	text-align: center;
+	font-size: 11px;
+	background: url(imagens/templatemo_footer_bg.gif) no-repeat;
+	color: #666666;
+}
+#footer a {
+	color: #666666;
+}
+#site_title {
+        margin-left: 250px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 26px;
+	color: #FFFFFF;
+        text-align: left;
+}
+#site_subtitle1 {
+        margin-left: 250px;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 20px;
+        text-align: left;
+	color:  #FFFFFF;
+}
+
+#site_subtitle2 {
+        margin-left: 250px;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	color:  #FFFFFF;
+        text-align: left;
+}
+
+#site_subtitle3 {
+        margin-left: 250px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color:  #FFFFFF;
+        text-align: left;
+}
+
+#site_slogan {
+        margin-left: 250px;
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 13px;
+	color:  #FFFFFF;
+}
+
+.spacer {
+	clear: left;
+	height: 18px;
+}
+.pic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000000;
+}
+.section_box {
+	margin: 10px;
+	padding: 10px;
+	border: 1px dashed #CCCCCC;
+	background: #F2F2F2;
+}
+.section_box2 {
+	clear: left;
+	margin-top: 10px;
+	background: #F6F6F6;
+	color: #000000;
+}
+.text_area {
+	padding: 10px;
+}
+.publish_date {
+	clear: both;
+	margin-top: 10px;
+	color: #999999;
+	font-size: 11px;
+	font-weight: bold;
+}
+.title {
+	padding-bottom: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0000FF;
+        #margin-left: 100px;
+}
+.subtitle {
+	padding-bottom: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.post_title { 
+	padding: 6px;
+	padding-left: 10px;
+	/* background: #DDEEFF; */
+        background: #6666FF; 
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.menu {
+	list-style-type: none;
+	margin: 20px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 230px;
+}
+.menu li a{
+	background: #E6E6E6 url(imagens/button_default.gif) no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0000FF;
+	display: block;
+	width: auto;
+	margin-bottom: 2px;
+	padding: 5px;
+	padding-left: 12px;
+	text-decoration: none;
+}
+* html .menu li a{ 
+	width: 190px;
+}
+.menu li a:visited, .menu li a:active{
+	color: #0000FF;
+}
+.menu li a:hover{
+	background: #EEEEEE url(imagens/button_active.gif) no-repeat;
+	color: #FF3333;
+}
