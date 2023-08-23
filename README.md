@@ -1,5 +1,6 @@
 # gscomweb
 
+Escrever aqui observações sobre a página. Esta página não será visivel na web (sem permissão para www-data)
 
 
 ## Getting started
