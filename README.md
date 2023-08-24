@@ -1,7 +1,7 @@
 # gscomweb
 
 Escrever aqui observações sobre a página. Esta página não será visivel na web (sem permissão para www-data)
-
+mod1, dia 24.
 
 ## Getting started
 
